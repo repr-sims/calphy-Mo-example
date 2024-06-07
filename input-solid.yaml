@@ -1,0 +1,30 @@
+calculations:
+- element: Mo
+  lattice: bcc
+  lattice_constant: 3.158
+  mass: 95.95
+  md:
+    timestep: 0.002
+    n_cycles: 2000
+  mode: ts
+  n_equilibration_steps: 10000
+  n_iterations: 1
+  n_switching_steps: 25000
+  pair_coeff: '* * mo.fs.eam.alloy Mo'
+  pair_style: eam/alloy
+  pressure: 0.0
+  queue:
+    commands:
+    - conda activate calphy
+    cores: 4
+    scheduler: local
+  reference_phase: solid
+  repeat:
+  - 7
+  - 7
+  - 7
+  temperature:
+  - 2500.0
+  - 3500.0
+  tolerance:
+    pressure: 0.5

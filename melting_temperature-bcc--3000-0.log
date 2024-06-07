@@ -1,0 +1,95 @@
+2024-06-07 12:03:38,617 calphy.helpers INFO     Temperature start: 2800.000000 K, temperature stop: 3200.000000 K, pressure: 0.000000 bar
+2024-06-07 12:03:38,617 calphy.helpers INFO     Pressure adjusted in iso
+2024-06-07 12:03:38,617 calphy.helpers INFO     Reference phase is solid
+2024-06-07 12:03:38,618 calphy.helpers INFO     Thermostat/Barostat combo for equilibration cycle is not explicitely specified
+2024-06-07 12:03:38,618 calphy.helpers INFO     Thermostat/Barostat combo for equilibration cycle can be specified using keyword equilibration_control
+2024-06-07 12:03:38,618 calphy.helpers INFO     Reference phase is solid, setting Nose-Hoover thermostat for equilibration
+2024-06-07 12:03:38,619 calphy.helpers INFO     Nose-Hoover thermostat damping is 0.100000
+2024-06-07 12:03:38,619 calphy.helpers INFO     Nose-Hoover barostat damping is 0.100000
+2024-06-07 12:03:38,619 calphy.helpers INFO     These values can be tuned by adding in the input file:
+2024-06-07 12:03:38,620 calphy.helpers INFO     nose_hoover:
+2024-06-07 12:03:38,620 calphy.helpers INFO        thermostat_damping: <float>
+2024-06-07 12:03:38,620 calphy.helpers INFO        barostat_damping: <float>
+2024-06-07 12:03:38,621 calphy.helpers INFO     Integration stage is done using Nose-Hoover thermostat and barostat when needed
+2024-06-07 12:03:38,621 calphy.helpers INFO     Thermostat damping is 0.100000
+2024-06-07 12:03:38,621 calphy.helpers INFO     Barostat damping is 0.100000
+2024-06-07 12:03:38,622 calphy.helpers INFO     686 atoms in 343 cells on 4 cores
+2024-06-07 12:03:38,622 calphy.helpers INFO     pair_style: eam/alloy
+2024-06-07 12:03:38,622 calphy.helpers INFO     pair_coeff: * * /mnt/c/Users/menon/Documents/repos/random/calphy-Mo-example/mo.fs.eam.alloy Mo
+2024-06-07 12:03:38,658 calphy.helpers INFO     Temperature start: 2800.000000 K, temperature stop: 3200.000000 K, pressure: 0.000000 bar
+2024-06-07 12:03:38,660 calphy.helpers INFO     Pressure adjusted in iso
+2024-06-07 12:03:38,661 calphy.helpers INFO     Reference phase is liquid
+2024-06-07 12:03:38,661 calphy.helpers INFO     Melting cycle will run, this can be turned off using the keyword melting_cycle
+2024-06-07 12:03:38,662 calphy.helpers INFO     Thermostat/Barostat combo for equilibration cycle is not explicitely specified
+2024-06-07 12:03:38,663 calphy.helpers INFO     Thermostat/Barostat combo for equilibration cycle can be specified using keyword equilibration_control
+2024-06-07 12:03:38,665 calphy.helpers INFO     Reference phase is liquid, setting Nose-Hoover thermostat for equilibration
+2024-06-07 12:03:38,673 calphy.helpers INFO     Nose-Hoover thermostat damping is 0.100000
+2024-06-07 12:03:38,675 calphy.helpers INFO     Nose-Hoover barostat damping is 0.100000
+2024-06-07 12:03:38,676 calphy.helpers INFO     These values can be tuned by adding in the input file:
+2024-06-07 12:03:38,677 calphy.helpers INFO     nose_hoover:
+2024-06-07 12:03:38,678 calphy.helpers INFO        thermostat_damping: <float>
+2024-06-07 12:03:38,679 calphy.helpers INFO        barostat_damping: <float>
+2024-06-07 12:03:38,680 calphy.helpers INFO     Integration stage is done using Nose-Hoover thermostat and barostat when needed
+2024-06-07 12:03:38,683 calphy.helpers INFO     Thermostat damping is 0.100000
+2024-06-07 12:03:38,686 calphy.helpers INFO     Barostat damping is 0.100000
+2024-06-07 12:03:38,687 calphy.helpers INFO     686 atoms in 343 cells on 4 cores
+2024-06-07 12:03:38,688 calphy.helpers INFO     pair_style: eam/alloy
+2024-06-07 12:03:38,689 calphy.helpers INFO     pair_coeff: * * /mnt/c/Users/menon/Documents/repos/random/calphy-Mo-example/mo.fs.eam.alloy Mo
+2024-06-07 12:03:38,690 calphy.helpers INFO     Free energy of /mnt/c/Users/menon/Documents/repos/random/calphy-Mo-example/ts-bcc-solid-2800-0.0.data and /mnt/c/Users/menon/Documents/repos/random/calphy-Mo-example/ts-bcc-liquid-2800-0.1.data phases will be calculated
+2024-06-07 12:03:38,691 calphy.helpers INFO     Temperature range of 2800.000000-3200.000000
+2024-06-07 12:03:38,692 calphy.helpers INFO     STATE: Temperature range of 2800.000000-3200.000000 K
+2024-06-07 12:03:38,693 calphy.helpers INFO     Starting solid fe calculation
+2024-06-07 12:03:43,895 calphy.helpers INFO     At count 1 mean pressure is -4.806050 with 16.768555 vol/atom
+2024-06-07 12:03:46,946 calphy.helpers INFO     At count 2 mean pressure is 0.479189 with 16.768848 vol/atom
+2024-06-07 12:03:46,948 calphy.helpers INFO     finalized vol/atom 16.768848 at pressure 0.479189
+2024-06-07 12:03:46,950 calphy.helpers INFO     Avg box dimensions x: 22.574000, y: 22.574000, z:22.574000
+2024-06-07 12:03:51,915 calphy.helpers INFO     At count 1 mean k is 2.262050 std is 0.010000
+2024-06-07 12:03:51,918 calphy.helpers INFO     finalized sprint constants
+2024-06-07 12:03:51,920 calphy.helpers INFO     [2.262049981275]
+2024-06-07 12:03:52,220 calphy.helpers INFO     Averaging routine finished in 13.525845 s
+2024-06-07 12:05:13,856 calphy.helpers INFO     Integration cycle 1 finished in 81.633559 s
+2024-06-07 12:05:13,962 calphy.helpers INFO     Report written in /mnt/c/Users/menon/Documents/repos/random/calphy-Mo-example/ts-bcc-solid-2800-0/report.yaml
+2024-06-07 12:05:13,964 calphy.helpers INFO     Please cite the following publications:
+2024-06-07 12:05:13,965 calphy.helpers INFO     - 10.1103/PhysRevMaterials.5.103801
+2024-06-07 12:05:13,966 calphy.helpers INFO     Starting solid reversible scaling run
+2024-06-07 12:05:13,967 calphy.helpers INFO     Starting temperature sweep cycle: 1
+2024-06-07 12:05:15,871 calphy.helpers INFO     Starting equilibration: 1
+2024-06-07 12:05:23,980 calphy.helpers INFO     Finished equilibration: 1
+2024-06-07 12:05:24,000 calphy.helpers INFO     Starting equilibration with constrained com: 1
+2024-06-07 12:05:31,630 calphy.helpers INFO     Finished equilibration with constrained com: 1
+2024-06-07 12:05:31,678 calphy.helpers INFO     Started forward sweep: 1
+2024-06-07 12:06:12,549 calphy.helpers INFO     Finished forward sweep: 1
+2024-06-07 12:06:22,704 calphy.helpers INFO     Started backward sweep: 1
+2024-06-07 12:07:02,291 calphy.helpers INFO     Finished backward sweep: 1
+2024-06-07 12:07:02,477 calphy.helpers INFO     Please cite the following publications:
+2024-06-07 12:07:02,479 calphy.helpers INFO     - 10.1103/PhysRevLett.83.3973
+2024-06-07 12:07:02,691 calphy.helpers INFO     Starting liquid fe calculation
+2024-06-07 12:07:04,883 calphy.helpers INFO     Starting melting cycle with thigh temp 6400.000000, factor 1.000000
+2024-06-07 12:07:12,160 calphy.helpers INFO     fraction of solids found: 0.001458
+2024-06-07 12:07:27,652 calphy.helpers INFO     At count 1 mean pressure is 1.142270 with 17.522451 vol/atom
+2024-06-07 12:07:31,793 calphy.helpers INFO     At count 2 mean pressure is 2.103689 with 17.520367 vol/atom
+2024-06-07 12:07:35,823 calphy.helpers INFO     At count 3 mean pressure is -4.595627 with 17.518465 vol/atom
+2024-06-07 12:07:39,360 calphy.helpers INFO     At count 4 mean pressure is 2.045664 with 17.516717 vol/atom
+2024-06-07 12:07:42,870 calphy.helpers INFO     At count 5 mean pressure is 0.113766 with 17.513770 vol/atom
+2024-06-07 12:07:42,871 calphy.helpers INFO     finalized vol/atom 17.513770 at pressure 0.113766
+2024-06-07 12:07:42,872 calphy.helpers INFO     Avg box dimensions x: 22.898000, y: 22.898000, z:22.898000
+2024-06-07 12:07:43,167 calphy.helpers INFO     Averaging routine finished in 40.473864 s
+2024-06-07 12:09:40,832 calphy.helpers INFO     Integration cycle 1 finished in 117.662585 s
+2024-06-07 12:09:40,927 calphy.helpers INFO     Report written in /mnt/c/Users/menon/Documents/repos/random/calphy-Mo-example/ts-bcc-liquid-2800-0/report.yaml
+2024-06-07 12:09:40,928 calphy.helpers INFO     Please cite the following publications:
+2024-06-07 12:09:40,929 calphy.helpers INFO     - 10.1103/PhysRevMaterials.5.103801
+2024-06-07 12:09:40,930 calphy.helpers INFO     Starting liquid reversible scaling calculation
+2024-06-07 12:09:40,931 calphy.helpers INFO     Starting temperature sweep cycle: 1
+2024-06-07 12:09:43,033 calphy.helpers INFO     Starting equilibration: 1
+2024-06-07 12:09:50,200 calphy.helpers INFO     Finished equilibration: 1
+2024-06-07 12:09:50,212 calphy.helpers INFO     Starting equilibration with constrained com: 1
+2024-06-07 12:09:53,661 calphy.helpers INFO     Finished equilibration with constrained com: 1
+2024-06-07 12:09:53,696 calphy.helpers INFO     Started forward sweep: 1
+2024-06-07 12:10:22,530 calphy.helpers INFO     Finished forward sweep: 1
+2024-06-07 12:10:28,791 calphy.helpers INFO     Started backward sweep: 1
+2024-06-07 12:10:56,429 calphy.helpers INFO     Finished backward sweep: 1
+2024-06-07 12:10:56,601 calphy.helpers INFO     Please cite the following publications:
+2024-06-07 12:10:56,604 calphy.helpers INFO     - 10.1103/PhysRevLett.83.3973
+2024-06-07 12:10:56,789 calphy.helpers INFO     Found melting temperature = 3105.13 +/- 0.00 K 
+2024-06-07 12:10:56,791 calphy.helpers INFO     Experimental melting temperature = 2895.15 K 
+2024-06-07 12:10:56,793 calphy.helpers INFO     STATE: Tm = 3105.13 K +/- 0.00 K
